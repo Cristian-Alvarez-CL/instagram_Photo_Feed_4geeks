@@ -35,27 +35,6 @@
                         data-target="#staticBackdrop">
                         Create new Post
                     </button>
-                    <!-- Modal -->
-                    <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false"
-                        tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                        <div class="modal-dialog">
-                            <div class="modal-content">
-                                <div class="modal-body">
-                                    <div class="form-group">
-                                        <textarea class="form-control w-100" id="message-text"></textarea>
-                                    </div>
-                                    <button type="button" class="btn btn-outline border btn-sm mt-3"><i
-                                            class="fas fa-camera"></i></button>
-                                    <button type="button" class="btn btn-outline border btn-sm mt-3"><i
-                                            class="fas fa-map-marker-alt"></i></button>
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
-                                    <button type="button" class="btn btn-success my-2 my-sm-0">Publish</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </form>
                 <ul class="navbar-nav">
                     <li class="nav-item dropdown">
@@ -106,7 +85,27 @@
             </div>
         </div>
     </div>
-
+    <!-- Modal -->
+    <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="form-group">
+                        <textarea class="form-control w-100" id="message-text"></textarea>
+                    </div>
+                    <button type="button" class="btn btn-outline border btn-sm mt-3"><i
+                            class="fas fa-camera"></i></button>
+                    <button type="button" class="btn btn-outline border btn-sm mt-3"><i
+                            class="fas fa-map-marker-alt"></i></button>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                    <button type="button" class="btn btn-success my-2 my-sm-0">Publish</button>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
