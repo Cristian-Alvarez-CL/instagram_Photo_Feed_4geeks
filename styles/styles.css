@@ -1,0 +1,13 @@
+.col-md-4 img {
+    width: 98%;
+    height: 350px;
+    object-fit: cover;
+}
+
+nav.dos{
+    margin-top: 2%;
+}
+
+div.card, div.no-gutters{
+    margin-top: 5%;
+}
